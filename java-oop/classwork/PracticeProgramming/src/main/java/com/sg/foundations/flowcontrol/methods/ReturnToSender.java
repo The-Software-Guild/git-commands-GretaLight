@@ -1,15 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.sg.foundations.flowcontrol.methods;
 
 /**
  *
  * @author Greta
  */
-    public class ReturnToSender {
+public class ReturnToSender {
+
     public static void main(String[] args) {
 
         char aMystery = mystery();
@@ -27,23 +23,23 @@ package com.sg.foundations.flowcontrol.methods;
 
     }
 
-    public static int secret(){
+    public static int secret() {
         return 42;
     }
 
-    public static double surprise(){
+    public static double surprise() {
         return 3.14;
     }
 
-    public static char mystery(){
+    public static char mystery() {
         return 'X';
     }
 
-    public static boolean classified(){
+    public static boolean classified() {
         return true;
     }
 
-    public static String unexpected(){
+    public static String unexpected() {
         return "Spanish Inquisition";
     }
 }
